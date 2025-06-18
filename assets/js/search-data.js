@@ -413,6 +413,17 @@ ninja.data = [{
             window.location.href = "/blog/2015/code/";
           
         },
+      },{id: "post-missing-data-described-via-dags-versus-pure-mcar-mar-mnar",
+        
+          title: "Missing data described via DAGs versus pure MCAR/MAR/MNAR",
+        
+        description: "Brief entirely uneducated overview of my current reading",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/causal-machine-learning/";
+          
+        },
       },{id: "post-a-post-with-images",
         
           title: "a post with images",
