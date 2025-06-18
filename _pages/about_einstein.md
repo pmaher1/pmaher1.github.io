@@ -1,5 +1,9 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a research assistant in statistics within the [ULTRA](https://clinical-research.centre.uq.edu.au/ultra) team at the University of Queensland (UQ). Welcome to my personal webpage.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests include:
+- Bayesian adaptive clinical trials
+- Bayesian non-parametric priors and approximations
+- Prior elicitation methods
+- Causal inference and missing data estimation via DAGs
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm currently half-way through my [BCA Masters of Biostatistics](https://www.bca.edu.au/course-information/masters-degree/) and aim to hone my skills and continue research after this degree.
