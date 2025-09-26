@@ -23,7 +23,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-variational-message-passing",
+        
+          title: "Variational Message Passing",
+        
+        description: "Derivation and algorithmic structure of variational message passing for conjugate exponential-family models.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/variational-message-passing/";
+          
+        },
+      },{id: "post-kullback-leibler-divergence",
+        
+          title: "Kullback-Leibler Divergence",
+        
+        description: "Notes on the KL divergence, its connection to the ELBO, and the supporting role of Jensen&#39;s inequality.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/kullback-leibler-divergence/";
+          
+        },
+      },{id: "post-variational-bayes",
+        
+          title: "Variational Bayes",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/variational-bayes/";
+          
+        },
+      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
