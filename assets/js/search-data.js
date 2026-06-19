@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research and statistical computing projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -56,23 +56,7 @@ ninja.data = [{
             window.location.href = "/blog/2025/variational-bayes/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-joint-modelling-time-to-event-and-longitudinal-data",
+      },{id: "projects-joint-modelling-time-to-event-and-longitudinal-data",
           title: 'Joint Modelling Time to Event and Longitudinal data',
           description: "Statistical methods for analyzing correlated time-to-event and longitudinal outcomes",
           section: "Projects",handler: () => {
