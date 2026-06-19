@@ -3,5 +3,4 @@ github_users:
 
 repo_description_lines_max: 2
 
-github_repos:
-  - pmaher1/demo_repository
+github_repos: []
