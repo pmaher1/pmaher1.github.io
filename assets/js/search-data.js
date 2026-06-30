@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Research and statistical computing projects.",
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Curriculum Vitae",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/cv/";
           },
         },{id: "post-variational-message-passing",
         
@@ -45,28 +45,7 @@ ninja.data = [{
             window.location.href = "/blog/2025/kullback-leibler-divergence/";
           
         },
-      },{id: "post-variational-bayes",
-        
-          title: "Variational Bayes",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/variational-bayes/";
-          
-        },
-      },{id: "projects-joint-modelling-time-to-event-and-longitudinal-data",
-          title: 'Joint Modelling Time to Event and Longitudinal data',
-          description: "Statistical methods for analyzing correlated time-to-event and longitudinal outcomes",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_joint_modelling/";
-            },},{id: "projects-variational-bayesian-methods-in-clinical-trials",
-          title: 'Variational Bayesian methods in Clinical Trials',
-          description: "Modern Bayesian computational methods for clinical trial design and analysis",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_variational_bayes_trials/";
-            },},{
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
