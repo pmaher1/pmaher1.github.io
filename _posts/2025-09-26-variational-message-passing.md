@@ -4,6 +4,7 @@ title: "Variational Message Passing"
 date: 2025-09-26
 description: "Derivation and algorithmic structure of variational message passing for conjugate exponential-family models."
 tags: [variational inference, message passing]
+published: false
 ---
 
 Variational message passing (VMP) exploits conditional conjugacy in probabilistic models whose factors lie in the exponential family. When a conditional distribution can be written as

@@ -4,6 +4,7 @@ title: "Kullback-Leibler Divergence"
 date: 2025-09-26
 description: "Notes on the KL divergence, its connection to the ELBO, and the supporting role of Jensen's inequality."
 tags: [variational inference, information theory]
+published: false
 ---
 
 The Kullback-Leibler (KL) divergence measures the relative entropy between two distributions $Q$ and $P$. Because it quantifies information using the natural logarithm, the units are **nats** - the natural analogue to bits.
