@@ -16,33 +16,59 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Curriculum Vitae",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "post-variational-message-passing",
+        },{id: "post-wip",
         
-          title: "Variational Message Passing",
+          title: "WIP",
         
-        description: "Derivation and algorithmic structure of variational message passing for conjugate exponential-family models.",
+        description: "WIP",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/variational-message-passing/";
+            window.location.href = "/blog/2025/wip/";
           
         },
-      },{id: "post-kullback-leibler-divergence",
+      },{id: "post-dose-finding-with-the-hierarchical-emax-with-informative-priors",
         
-          title: "Kullback-Leibler Divergence",
+          title: "Dose-finding with the Hierarchical EMAX with informative priors",
         
-        description: "Notes on the KL divergence, its connection to the ELBO, and the supporting role of Jensen&#39;s inequality.",
+        description: "WIP",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/kullback-leibler-divergence/";
+            window.location.href = "/blog/2025/dose-finding-hierarchical-emax/";
+          
+        },
+      },{id: "post-frequentist-models-for-non-informative-bayesian-designs",
+        
+          title: "Frequentist models for non-informative Bayesian designs",
+        
+        description: "WIP",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/frequentist-models-non-informative-bayesian/";
+          
+        },
+      },{id: "post-gaussian-processes-for-semiparametric-accelerated-failure-time-joint-modelling",
+        
+          title: "Gaussian Processes for semiparametric accelerated-failure time joint modelling",
+        
+        description: "WIP",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/gaussian-processes-semiparametric-aft-joint-modelling/";
+          
+        },
+      },{id: "post-quick-estimates-in-missing-data-structures",
+        
+          title: "Quick Estimates in Missing Data Structures",
+        
+        description: "WIP",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/quick-estimates-missing-data/";
           
         },
       },{
