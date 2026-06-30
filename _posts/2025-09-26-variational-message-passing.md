@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Variational Message Passing"
 date: 2025-09-26

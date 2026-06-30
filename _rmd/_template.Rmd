@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Post Title Here"
+date: 2026-06-30
+description: "One-line summary of the post."
+tags: [r, statistics]
+published: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+Write your introduction here. Inline math like $\alpha$ and display math both work:
+
+$$
+\hat\theta = \arg\max_\theta \; \log p(x \mid \theta).
+$$
+
+## A plot
+
+```{r example-plot}
+library(ggplot2)
+
+df <- data.frame(x = rnorm(500))
+ggplot(df, aes(x)) +
+  geom_density(fill = "steelblue", alpha = 0.5) +
+  theme_minimal()
+```
+
+## A table
+
+```{r example-table}
+knitr::kable(head(mtcars), digits = 2)
+```

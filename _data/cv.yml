@@ -2,27 +2,147 @@
   type: map
   contents:
     - name: Full Name
-      value: Patrick Maher
+      value: Patrick Michael Maher
+    - name: Location
+      value: Brisbane, Australia
+    - name: Email
+      value: pmaher2037@gmail.com
+    - name: ORCID
+      value: 0009-0001-2320-4626
     - name: Languages
-      value: English
+      value: English (native)
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Biostatistics
-      institution: Biostatistics Collaboration of Australia
-      year: In progress
+    - title: Doctor of Philosophy (PhD) in Statistics
+      institution: University of Queensland, Brisbane, Australia
+      year: Jan 2026 – Present
       description:
-        - Coursework and research training in biostatistics.
+        - "Advisors: Prof. Andrew Martin and Prof. James McGree"
+        - "Research focus: Variational Methods in Clinical Trials"
+    - title: Master of Biostatistics
+      institution: University of Queensland, Brisbane, Australia
+      year: Feb 2024 – Jun 2026
+      description:
+        - "GPA: 6.625/7.0"
+        - "Advisors: Dr. Ding Ma and Prof. Andrew Martin"
+        - "Thesis: Bayesian Semiparametric AFT Joint Modelling for HrQoL and PFS"
+        - "Dean's Commendation for Academic Excellence, Semesters 1 and 2 2025"
+    - title: Bachelor of Mathematics (Statistics)
+      institution: University of Queensland, Brisbane, Australia
+      year: Feb 2021 – Nov 2023
+      description:
+        - "GPA: 5.8/7.0"
+        - "Dean's Commendation for Academic Excellence, Semester 2 2023"
 
-- title: Experience
+- title: Employment
   type: time_table
   contents:
-    - title: Research Assistant in Statistics
-      institution: ULTRA team, University of Queensland
+    - title: Senior Research Assistant
+      institution: UQCCR, University of Queensland
+      year: Jan 2024 – Present
+      description:
+        - Prepared analysis plans, derived variables, and programmed statistical analyses in R, HPC, Stan and Python.
+        - Performed sample size and adaptive design calculations across multiple endpoints within clinical trials.
+        - Implemented complex hierarchical, joint, multivariable and multivariate models primarily within the Bayesian paradigm.
+        - Constructed semiparametric Bayesian methods and optimisation techniques (Variational Bayes, Expectation Propagation, INLA).
+        - Authored written reports; presented statistical methodology at national and international conferences.
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Lead Statistician – PIVO Trial
+      institution: University of Queensland
       year: Present
       description:
-        - Statistical research support and methods development.
+        - "Adaptive group sequential RCT: reducing blood culture contamination with a needle-less blood draw device (PIVO Pro)."
+        - Statistical analysis design, endpoints, data management and randomisation.
+    - title: Lead Statistician – ASITI-T1D Trial
+      institution: University of Queensland
+      year: Present
+      description:
+        - "Phase 1, randomised, double-blind, placebo-controlled, multicentre dose escalation study (ASITI-201) in adults with stage 3 Type 1 Diabetes."
+        - Derived novel Bayesian adaptive dose-finding methodology leveraging prior elicitation of expert belief.
+    - title: Statistical Design – PROACTIVE and ANVU Trials
+      institution: University of Queensland
+      year: Present
+      description:
+        - "PROACTIVE: Bayesian adaptive hierarchical trial design within endometriosis."
+        - "ANVU: prior elicitation in a Bayesian design for gynaecological cancer."
+    - title: Systematic Review – PIVC Meta-analysis
+      institution: University of Queensland
+      year: 2024–2026
+      description:
+        - Meta-analysis of global standards of peripheral intravenous catheter care in acute hospital settings.
+        - Performed analyses and contributed to manuscript writing.
+    - title: Mentoring and Knowledge Sharing
+      institution: University of Queensland
+      year: Present
+      description:
+        - Mentoring PhD and Masters students in statistical analyses and Bayesian trial design.
+        - Chaired UQTS monthly meetings for knowledge sharing across trials statisticians.
+        - Presented workshop on efficient Bayesian trial design at the ULTRA showcase (~30 attendees).
+        - Presented Bayesian hierarchical modelling and variational methods to BEAT-CALCI investigators.
+
+- title: Journal Articles
+  type: time_table
+  contents:
+    - title: >
+        Evaluating clinician sustainment of a Mediterranean-style dietary pattern approach in routine care for coronary heart disease and type 2 diabetes utilising the NoMAD instrument
+      year: Accepted Sep 2025
+      description:
+        - "Mayr H., Murray E., Maher P., et al. <em>Nutrition in Clinical Practice</em>."
+        - "Contribution: main and sub analyses, data visualisations, manuscript drafting."
+    - title: >
+        Joint Modelling Using Semiparametric Accelerated Failure Time Approaches
+      year: Re-submitted Jun 2026
+      description:
+        - "Ma D., Maher P., Martin A. <em>Biometrical Journal</em>. arXiv:2606.16080."
+        - "Contribution: Bayesian modelling derivation, simulations, manuscript content."
+    - title: >
+        Peripheral intravenous catheters in acute hospitals: A systematic review and meta-analysis of global care quality
+      year: Submitted Mar 2026
+      description:
+        - "Lovegrove J., Shinners L., Ray-Barruel G., Maher P., et al. <em>International Journal for Quality in Health Care</em>."
+        - "Contribution: primary, secondary and sensitivity analyses; manuscript drafting."
+
+- title: Presentations
+  type: time_table
+  contents:
+    - title: Quick Estimates in Missing Data Structures with Variational Bayes
+      year: Nov 2025
+      description:
+        - "Maher P., Martin A. AusTriM Conference, Melbourne. (Poster, speaker)"
+    - title: Quick Bayesian Approximations for Clinical Trials
+      year: Oct 2025
+      description:
+        - "Maher P., Martin A. 'Through our Eyes', Brisbane. (Poster, speaker)"
+    - title: Joint Modelling Using Semiparametric AFT Approaches – Application to HrQoL Analysis
+      year: Aug 2025
+      description:
+        - "Ma D., Maher P., Martin A. ISCB Conference, Basel, Switzerland. (Oral)"
+    - title: A Bayesian Semiparametric Joint Modelling Framework for Non-Proportional Hazards
+      year: Aug 2025
+      description:
+        - "Ma D., Maher P., Martin A. AusTriM Trial Analysis SIG Meeting. (Invited, Online, Oral)"
+    - title: ASITI-201-T1D – A Randomized Dose-Finding Trial
+      year: Dec 2024
+      description:
+        - "Maher P., Thomas R., Martin A. ACTA Conference, Melbourne. (Poster)"
+    - title: Incorporating Frequentist Group Sequential Methods in Bayesian Trial Design
+      year: Dec 2024
+      description:
+        - "Maher P., Martin A. ACTA Conference, Melbourne. (Oral, speaker)"
+
+- title: Professional Affiliations
+  type: list
+  contents:
+    - "2024 – Present: Queensland Branch Early Career Representative, Statistical Society of Australia"
+    - "2024 – Present: Member, Australian Clinical Trials Alliance – Statistics in Trials Interest Group (ACTA-STInG)"
+    - "2025 – Present: Student Member, International Society for Clinical Biostatistics"
+    - "2025 – Present: Student Member, International Biometric Society"
+    - "2026 – Present: Student Member, International Society for Bayesian Analysis"
 
 - title: Academic Interests
   type: nested_list
@@ -31,7 +151,9 @@
       items:
         - Variational Bayesian methods
         - Bayesian adaptive clinical trials
+        - Semiparametric Bayesian modelling
     - title: Statistical methodology
       items:
-        - Bayesian non-parametric priors and approximations
-        - Prior elicitation methods
+        - Prior elicitation
+        - Expectation Propagation and INLA
+        - Joint modelling for longitudinal and time-to-event data

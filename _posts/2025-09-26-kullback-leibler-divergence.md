@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Kullback-Leibler Divergence"
 date: 2025-09-26

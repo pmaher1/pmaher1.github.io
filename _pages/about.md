@@ -2,12 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: PhD Candidate in Statistics, University of Queensland
 
 profile:
   align: right
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Brisbane, Australia</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,13 +25,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a research assistant in statistics within the [ULTRA](https://clinical-research.centre.uq.edu.au/ultra) team at the University of Queensland (UQ). Welcome to my personal webpage.
+I'm a PhD candidate and senior research assistant in statistics within the [ULTRA](https://clinical-research.centre.uq.edu.au/ultra) team at the University of Queensland (UQ). Welcome to my personal webpage.
 
 My research interests include:
-- Variational Bayesian Methods
+- Variational Bayesian methods
 - Bayesian adaptive clinical trials
-- Bayesian non-parametric priors and approximations
+- Semiparametric Bayesian modelling
 - Prior elicitation methods
 
-I'm currently half-way through my [BCA Masters of Biostatistics](https://www.bca.edu.au/course-information/masters-degree/) and aim to hone my skills and continue research after this degree.
-
+I completed my Master of Biostatistics at UQ (2024–2026) and now focus on variational methods in clinical trials under the supervision of Prof. Andrew Martin and Prof. James McGree.
