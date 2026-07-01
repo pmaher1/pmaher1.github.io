@@ -27,17 +27,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/wip/";
           
         },
-      },{id: "post-dose-finding-with-the-hierarchical-emax-with-informative-priors",
-        
-          title: "Dose-finding with the Hierarchical EMAX with informative priors",
-        
-        description: "WIP",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/dose-finding-hierarchical-emax/";
-          
-        },
       },{id: "post-frequentist-models-for-non-informative-bayesian-designs",
         
           title: "Frequentist models for non-informative Bayesian designs",
