@@ -19,18 +19,28 @@ This modelling approach builds upon the work from [Gajewski et al. (2019)](https
 
 Within the immunotherapies there were 3 dose levels of interest, being 0.1, 0.3 and 1mL in dosage. These were compared against a placebo treatment, with 18 participants being allocated 6:4:4:4 across placebo, 0.1, 0.3 and 1mL groups respectively.
 
-The key issue in this trial was the sample size. As with other Phase I studies, the small sample size inhibits the study's ability to draw significant conclusions. This common problem leans into the appeal of Bayesian inference. Amongst the multitude of benefits a Bayesian analysis may have (uncertainty )
+The key issue in this trial was the sample size. As with other Phase I studies, the small sample size inhibits the study's ability to draw significant conclusions. This common problem leans into the appeal of Bayesian inference. Amongst the multitude of benefits a Bayesian analysis may have (uncertainty quantification, flexible design), the incorporation of *prior belief* is particularly attractive.
+
+Furthermore, the conventional analysis, independent pairwise comparisons (IPC) ignores the shape of the doses, only focuses on each comparison (placebo vs 0.1, placebo vs 0.3, placebo vs 1) independently. 
+
+Thereby, we took inspiration from the hierarchical EMAX model [Gajewski et al. (2019)](https://doi.org/10.1002/sim.8167) with the aim to incorporate expert opinion in an interpretable manner.
+
+## Statisticial Modelling
+
+The outcome was binary, whether there was a response for dose d ($y_d=1$), or not ($y_d=0$), thereby a logistic regression was used, such that,
+
+$$
+y_d \sim \operatorname{Binomial}(n_d, p_d) \\ 
+p_d = \operatorname{logit}^{-1}(\theta_d)
+$$
+
+The placebo arm was kept as non-informative, with $\theta_1 \sim \operatorname{Normal}(0, 10^2)$, such that a placebo's response is derived from placebo data alone. 
+
+For the remaining logit parameters (indicating active treatment arms) two models were considered as inspiration
+
+1. **Independent pairwise comparisons (IPC):** Doses are independently drawn from a weakly informative prior such that there is no borrowing of information across doses. Namely with 
 
 
-- **ASITI-201-T1D**: planned randomised dose-finding trial of an islet antigen-specific immunotherapy for type 1 diabetes.
-- Placebo + three subcutaneous doses (0.1, 0.3, 1 mL); **n = 18**, allocated 6:4:4:4.
-- Tiny sample makes the conventional analysis - **independent pairwise comparisons (IPC)** - wasteful: it ignores that response varies *smoothly* with dose, and that we already hold prior knowledge from earlier trials.
-- Aim: a **Bayesian hierarchical EMAX (BH-EMAX)** model that restores both. Presented at ACTA 2024; extends [Gajewski et al. (2019)](https://doi.org/10.1002/sim.8167).
-
-## Outcome model
-
-- Binomial responses per dose: $y_d \sim \operatorname{Binomial}(n_d, p_d)$, with $p_d = \operatorname{logit}^{-1}(\theta_d)$.
-- Control arm modelled **separately**, $\theta_1 \sim \operatorname{Normal}(0, 10^2)$ - placebo estimated from placebo data alone.
 - **IPC (comparator):** each active dose is an independent logit with a weak prior; no borrowing across doses.
 - **BH-EMAX:** active doses share a smooth curve, with effective dose strength $\nu_d = \sqrt{\text{dose}_d}$:
 
