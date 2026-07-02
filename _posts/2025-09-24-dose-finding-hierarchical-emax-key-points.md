@@ -9,7 +9,18 @@ published: false
 
 *Condensed talking points for the companion post of the same title. Hidden (not published).*
 
-## The setting
+As my first blog post for this website I'd like to describe the content of my first conference poster! This was presented at the [Australian Clinical Trials Alliance (ACTA) 2024 conference](https://clinicaltrialsalliance.org.au/events-forums/2024-acta-clinical-trials-symposium/). 
+
+This was a project related to a randomised dose-finding trial for an islet antigen-specific immunotherapy within type 1 diabetes. This was my first time spending a decent amount of time constructing a Bayesian hierarchical model in [Stan](https://mc-stan.org/), utilising informative prior information to account for our planned small sample size.
+
+This modelling approach builds upon the work from [Gajewski et al. (2019)](https://doi.org/10.1002/sim.8167), with an extension to let expert give response probabilities into priors more directly.
+
+## The study context
+
+Within the immunotherapies there were 3 dose levels of interest, being 0.1, 0.3 and 1mL in dosage. These were compared against a placebo treatment, with 18 participants being allocated 6:4:4:4 across placebo, 0.1, 0.3 and 1mL groups respectively.
+
+The key issue in this trial was the sample size. As with other Phase I studies, the small sample size inhibits the study's ability to draw significant conclusions. This common problem leans into the appeal of Bayesian inference. Amongst the multitude of benefits a Bayesian analysis may have (uncertainty )
+
 
 - **ASITI-201-T1D**: planned randomised dose-finding trial of an islet antigen-specific immunotherapy for type 1 diabetes.
 - Placebo + three subcutaneous doses (0.1, 0.3, 1 mL); **n = 18**, allocated 6:4:4:4.
