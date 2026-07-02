@@ -27,6 +27,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/wip/";
           
         },
+      },{id: "post-dose-finding-hierarchical-emax",
+        
+          title: "Dose Finding Hierarchical Emax",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/dose-finding-hierarchical-emax/";
+          
+        },
       },{id: "post-frequentist-models-for-non-informative-bayesian-designs",
         
           title: "Frequentist models for non-informative Bayesian designs",
