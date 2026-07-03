@@ -38,6 +38,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/dose-finding-hierarchical-emax/";
           
         },
+      },{id: "post-dose-finding-hierarchical-emax-key-points",
+        
+          title: "Dose Finding Hierarchical Emax Key Points",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/dose-finding-hierarchical-emax-key-points/";
+          
+        },
       },{id: "post-frequentist-models-for-non-informative-bayesian-designs",
         
           title: "Frequentist models for non-informative Bayesian designs",
