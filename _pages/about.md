@@ -6,8 +6,8 @@ subtitle: PhD Candidate in Statistics, University of Queensland
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  # image: prof_pic.jpg # temporarily hidden
+  # image_circular: true # crops the image to make it circular
   more_info: >
     <p>Brisbane, Australia</p>
     <p><a href="/assets/pdf/cv.pdf" target="_blank">Download CV (PDF)</a></p>
